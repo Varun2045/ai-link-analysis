@@ -1,0 +1,256 @@
+{
+  "success": true,
+  "website": "https://fastapi.tiangolo.com",
+  "cached": false,
+  "llm_provider": "groq",
+  "llm_model": "openai/gpt-oss-120b",
+  "brand": {
+    "name": "FastAPI",
+    "category": "API/Web Framework",
+    "summary": "FastAPI is a modern, high\u2011performance Python web framework for building APIs, leveraging standard Python type hints to provide automatic interactive documentation, fast development, and production\u2011ready code."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "FastAPI offers a fast, type\u2011hint\u2011driven development experience with automatic Swagger and ReDoc documentation, high performance comparable to NodeJS, and a growing ecosystem including FastAPI Cloud, CLI tools, and extensive editor support.",
+      "main_products_and_services": [
+        "FastAPI framework",
+        "FastAPI Cloud hosting",
+        "FastAPI CLI",
+        "Typer (CLI framework)",
+        "Automatic interactive API documentation"
+      ],
+      "competitors": [
+        {
+          "name": "Django REST Framework",
+          "main_service": "REST API framework for Django",
+          "target_market": "Python developers building large\u2011scale web applications",
+          "strengths": [
+            "Mature ecosystem",
+            "Deep integration with Django ORM",
+            "Extensive authentication/permissions system"
+          ],
+          "weaknesses_or_gaps": [
+            "Slower performance compared to FastAPI",
+            "More boilerplate for type\u2011hinted validation"
+          ],
+          "source": "ai_inferred"
+        },
+        {
+          "name": "Flask",
+          "main_service": "Lightweight Python web micro\u2011framework",
+          "target_market": "Developers needing minimalistic, extensible web servers",
+          "strengths": [
+            "Very flexible and simple core",
+            "Large plugin ecosystem"
+          ],
+          "weaknesses_or_gaps": [
+            "No built\u2011in async support out of the box",
+            "Requires additional extensions for automatic docs and validation"
+          ],
+          "source": "ai_inferred"
+        },
+        {
+          "name": "NestJS",
+          "main_service": "Progressive Node.js framework for building efficient server\u2011side applications",
+          "target_market": "JavaScript/TypeScript developers building scalable APIs",
+          "strengths": [
+            "Built on TypeScript with strong typing",
+            "Modular architecture",
+            "Integrated OpenAPI/Swagger support"
+          ],
+          "weaknesses_or_gaps": [
+            "Higher learning curve for Python developers",
+            "Runs on Node.js, not Python"
+          ],
+          "source": "ai_inferred"
+        }
+      ],
+      "brand_competitive_advantages": [
+        "Native async support with Starlette",
+        "Type\u2011hint driven validation via Pydantic",
+        "Automatic generation of OpenAPI/Swagger and ReDoc docs",
+        "Fast development speed (200\u2011300% faster according to internal tests)",
+        "Editor\u2011wide autocompletion and type checking"
+      ],
+      "opportunities": [
+        "Expand FastAPI Cloud with managed services and scaling options",
+        "Create enterprise\u2011grade support packages and SLA offerings",
+        "Deepen AI/ML integration tooling (e.g., auto\u2011generation of model endpoints)",
+        "Broaden multilingual documentation and community outreach"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "fastapi python framework tutorial",
+        "platforms": [
+          "Google Search"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Attract developers seeking a fast API framework, leading to adoption and potential cloud service usage.",
+        "target_audience": "Python developers, tech students"
+      },
+      {
+        "query": "FastAPI vs Django REST Framework performance",
+        "platforms": [
+          "Google Search"
+        ],
+        "intent": "Comparative",
+        "business_relevance": "Highlights FastAPI's speed advantage, influencing decision makers to choose FastAPI for new projects.",
+        "target_audience": "Software architects, CTOs"
+      },
+      {
+        "query": "FastAPI Cloud pricing",
+        "platforms": [
+          "Google Search"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "Drives revenue by converting interested users to the hosted FastAPI Cloud service.",
+        "target_audience": "Start\u2011ups, SaaS companies"
+      },
+      {
+        "query": "FastAPI documentation swagger UI",
+        "platforms": [
+          "Google Search"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Showcases automatic docs feature, encouraging adoption for API\u2011first development.",
+        "target_audience": "API designers, backend engineers"
+      },
+      {
+        "query": "FastAPI async tutorial for beginners",
+        "platforms": [
+          "Google Search"
+        ],
+        "intent": "Educational",
+        "business_relevance": "Reduces onboarding friction, increasing community growth and downstream usage of FastAPI services.",
+        "target_audience": "Junior developers, Python learners"
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "FastAPI",
+      "secondary_keywords": [
+        "FastAPI framework",
+        "Python API framework",
+        "async Python web framework",
+        "FastAPI documentation"
+      ],
+      "long_tail_keywords": [
+        "how to build a REST API with FastAPI",
+        "FastAPI performance benchmark vs NodeJS",
+        "FastAPI Cloud deployment guide",
+        "FastAPI automatic Swagger UI example"
+      ],
+      "business_keywords": [
+        "FastAPI Cloud pricing",
+        "FastAPI enterprise support",
+        "FastAPI consulting services"
+      ],
+      "recommended_title": "FastAPI \u2013 High\u2011Performance Python API Framework & Cloud Hosting",
+      "title_rationale": "Combines the primary brand keyword with key value propositions (speed, Python, cloud) to improve click\u2011through and relevance for both developers and decision\u2011makers.",
+      "meta_description": "FastAPI is a modern, high\u2011performance Python web framework for building APIs quickly and safely. Learn how to develop, test, and deploy with automatic Swagger & ReDoc docs, async support, and FastAPI Cloud hosting.",
+      "supporting_content": [
+        {
+          "content_type": "Blog Post",
+          "topic": "FastAPI vs Flask: When to Choose Each Framework",
+          "purpose": "Educate developers on performance and feature differences, driving consideration for FastAPI."
+        },
+        {
+          "content_type": "Video Tutorial",
+          "topic": "Deploying a FastAPI Application to FastAPI Cloud in 5 Minutes",
+          "purpose": "Showcase the cloud offering and reduce friction for new users."
+        },
+        {
+          "content_type": "Case Study",
+          "topic": "How Microsoft Scaled ML Services with FastAPI",
+          "purpose": "Provide social proof and attract enterprise customers."
+        }
+      ]
+    },
+    "top_services": [
+      {
+        "service_name": "FastAPI Framework",
+        "description": "A modern, async\u2011ready Python web framework that uses type hints to generate automatic validation and interactive OpenAPI documentation.",
+        "target_industry": "Software Development",
+        "target_customer": "Developers and engineering teams building APIs",
+        "main_benefit": "Rapid development with high performance and built\u2011in docs",
+        "is_inferred": false
+      },
+      {
+        "service_name": "FastAPI Cloud",
+        "description": "Managed hosting platform optimized for FastAPI applications, offering one\u2011click deployment, scaling, and monitoring.",
+        "target_industry": "SaaS, FinTech, AI/ML",
+        "target_customer": "Start\u2011ups and enterprises seeking hassle\u2011free API hosting",
+        "main_benefit": "Simplifies production deployment and scaling of FastAPI apps",
+        "is_inferred": false
+      },
+      {
+        "service_name": "FastAPI CLI",
+        "description": "Command\u2011line interface that streamlines project creation, development server management, and automatic reload for FastAPI projects.",
+        "target_industry": "Software Development",
+        "target_customer": "Developers who prefer terminal\u2011based workflows",
+        "main_benefit": "Accelerates local development and testing",
+        "is_inferred": false
+      },
+      {
+        "service_name": "Typer (CLI framework)",
+        "description": "A library built on FastAPI principles for creating beautiful command\u2011line interfaces with minimal code.",
+        "target_industry": "Tooling & Automation",
+        "target_customer": "Developers building CLI utilities",
+        "main_benefit": "Leverages FastAPI's type\u2011hint approach for intuitive CLI creation",
+        "is_inferred": false
+      },
+      {
+        "service_name": "Automatic Interactive API Documentation",
+        "description": "Built\u2011in generation of Swagger UI and ReDoc documentation that updates in real time as code changes.",
+        "target_industry": "API Development",
+        "target_customer": "API designers and product teams",
+        "main_benefit": "Provides instant, shareable API docs without extra configuration",
+        "is_inferred": false
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Python backend developers",
+        "Full\u2011stack engineers building APIs"
+      ],
+      "secondary_audience": [
+        "Tech leads and architects",
+        "DevOps engineers"
+      ],
+      "industries": [
+        "Software & SaaS",
+        "FinTech",
+        "Healthcare",
+        "AI/ML",
+        "E\u2011commerce"
+      ],
+      "business_types": [
+        "Start\u2011ups",
+        "Mid\u2011size tech companies",
+        "Enterprise IT departments"
+      ],
+      "customer_profiles": [
+        "Developers seeking rapid API development",
+        "Teams needing async performance",
+        "Organizations requiring production\u2011ready documentation"
+      ],
+      "geographical_focus": null,
+      "customer_needs": [
+        "Fast development cycles",
+        "High\u2011performance async APIs",
+        "Automatic validation and documentation",
+        "Easy deployment and scaling"
+      ],
+      "customer_interests": [
+        "Type\u2011hinted Python programming",
+        "OpenAPI/Swagger standards",
+        "Serverless and container deployments"
+      ],
+      "marketing_segments": [
+        "Developer community",
+        "Enterprise API platforms",
+        "Cloud hosting services"
+      ]
+    }
+  }
+}
